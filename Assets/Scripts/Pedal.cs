@@ -23,7 +23,7 @@ public class Pedal : MonoBehaviour
         Vector3 originPosition = transform.position;
         float distanceX = collisionPoint.x - originPosition.x;
 
-        if (ballScript.transformX <= 15f)
+        if (ballScript.transformX <= 10f)
             ballScript.transformX += distanceX;
     }
 }
